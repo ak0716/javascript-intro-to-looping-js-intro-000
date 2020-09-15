@@ -8,9 +8,9 @@ function forLoop(array) {
 }
 
 function whileLoop(num) {
-  while (num > 0) {
+  while (num >= 0) {
     console.log(num)
     num--
   }
-  if(num = 0) console.log('done')
+  if(num < 1) console.log('done')
 }
