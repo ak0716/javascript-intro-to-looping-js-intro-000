@@ -12,5 +12,6 @@ function whileLoop(num) {
     console.log(num)
     num--
   }
-  if(num < 1) console.log('done')
+  if(num < 1) {break}
+  console.log('done')
 }
