@@ -6,4 +6,4 @@ function forLoop(array) {
     console.log(`"I am ${i} strange loops."`)
   }
 }
-forLoop(arr)
+forLoop(array)
