@@ -12,3 +12,5 @@ function whileLoop(num) {
     console.log(num--)
   }
 }
+
+whileLoop(10)
