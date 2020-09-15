@@ -6,4 +6,4 @@ function forLoop() {
   }
   return forLoop;
 }
-forLoop(array)
+forLoop()
