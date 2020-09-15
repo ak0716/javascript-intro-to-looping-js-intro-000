@@ -1,5 +1,5 @@
 var array = []
-var num
+var num = 10
 function forLoop(array) {
   for(let i = 0; i < 25; i++) {
     array.push(`I am ${i} strange loop${i === 1 ? '' : 's'}.`)
@@ -14,5 +14,3 @@ function whileLoop(num) {
     if(num === 0) {console.log('done')}
   }
 }
-
-whileLoop(10)
