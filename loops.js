@@ -13,9 +13,8 @@ function whileLoop(num) {
   return "done"
 }
 
-
+let i = 0
 function incrementVariable() {
-var i
 i = i + 1;
 return i;
 }
