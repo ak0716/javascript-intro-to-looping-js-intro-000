@@ -11,8 +11,9 @@ function whileLoop(num) {
   while (num > 0) {
     console.log(num)
     num--
+    if(num = 0) break
   }
-  if(num = 0) {console.log('done')}
+  {console.log('done')}
 }
 
 whileLoop(10)
