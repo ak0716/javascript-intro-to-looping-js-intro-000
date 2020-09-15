@@ -8,10 +8,11 @@ function forLoop(array) {
 }
 
 function whileLoop(num) {
-  while (num > 0) {
+  while (num >= 0) {
     num-=1
     console.log(num)
   }
+  if(num = 0) {console.log('done')}
 }
 
 whileLoop(10)
