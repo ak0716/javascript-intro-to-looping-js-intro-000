@@ -10,7 +10,8 @@ function forLoop(array) {
 let num
 function whileLoop(num) {
   while (num > 0) {
-    console.log(num--)
+    console.log(num)
+    num--
   }
   if(num === 0){console.log('done')}
 }
