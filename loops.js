@@ -1,6 +1,7 @@
 var array = []
 
 function forLoop(array) {
+  let i
   for(let i = 0; i < 25; i++) {
     console.log(`\'I am ${i} strange loop${i === 0 ? '' : 's'}.'`)
   }
